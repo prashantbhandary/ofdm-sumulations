@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite the accompanying report below."
+title: "ofdm-sumulations"
+type: software
+authors:
+  - family-names: "Bhandari"
+    given-names: "Prashant"
+    email: "santhprashant@gmail.com"
+repository-code: "https://github.com/prashantbhandary/ofdm-sumulations"
+url: "https://www.researchgate.net/publication/418396869"
+doi: "10.13140/RG.2.2.19175.07844"
+date-released: "2026-09-01"
+preferred-citation:
+  type: report
+  title: "An End-to-End OFDM-QPSK Text Link in Plain NumPy: Implementation and Bit-Error-Rate Validation Against Theory"
+  authors:
+    - family-names: "Bhandari"
+      given-names: "Prashant"
+      email: "santhprashant@gmail.com"
+  institution:
+    name: "IOE Pashchimanchal Campus, Tribhuvan University"
+  year: 2026
+  month: 9
+  url: "https://www.researchgate.net/publication/418396869"
+  doi: "10.13140/RG.2.2.19175.07844"

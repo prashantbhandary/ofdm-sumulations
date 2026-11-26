@@ -1,8 +1,14 @@
 # OFDM Simulations
 
+[![DOI](https://img.shields.io/badge/DOI-10.13140%2FRG.2.2.19175.07844-blue)](https://doi.org/10.13140/RG.2.2.19175.07844)
+
 This project demonstrates a basic digital communication link using **Orthogonal Frequency Division Multiplexing (OFDM)** and **Quadrature Phase Shift Keying (QPSK)**. A text message is converted into bits, mapped to QPSK symbols, divided across eight OFDM subcarriers, transmitted through an additive white Gaussian noise (AWGN) channel, and reconstructed at the receiver.
 
 The receiver uses an FFT to recover the subcarrier symbols and a nearest-point QPSK demapper to convert them back into bits and text.
+
+## Paper
+This project is described in a technical report:
+**An End-to-End OFDM–QPSK Text Link in Plain NumPy: Implementation and Bit-Error-Rate Validation Against Theory** — **Prashant Bhandari**, 2026. [Read the paper](https://www.researchgate.net/publication/418396869) · DOI: [10.13140/RG.2.2.19175.07844](https://doi.org/10.13140/RG.2.2.19175.07844)
 
 ## Simulation Setup
 
